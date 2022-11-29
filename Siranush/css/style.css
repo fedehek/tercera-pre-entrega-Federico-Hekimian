@@ -1,0 +1,438 @@
+@media (max-width: 760px) {
+  .img__header {
+    width: 100%;
+    height: 150px;
+  }
+
+  .nav__list {
+    display: block;
+    list-style: none;
+    margin: auto;
+  }
+
+  .logo {
+    display: block;
+    margin: auto;
+  }
+
+  .nav__item {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-inline: 50px;
+    padding: 10px;
+    border: 3px solid black;
+    background-color: rgb(255, 0, 0);
+  }
+
+  .href {
+    text-decoration: none;
+    color: white;
+  }
+
+  .h1__main {
+    font-family: "Marhey", cursive;
+    text-align: center;
+  }
+
+  .img__index {
+    width: 95%;
+    margin-left: 10px;
+  }
+
+  .h2-1 {
+    color: red;
+    text-align: center;
+  }
+
+  .p_index {
+    text-align: center;
+  }
+
+  .img_presentation_item {
+    display: block;
+    width: 100%;
+    padding: 5px;
+  }
+
+  .body__index {
+    background-color: aqua;
+  }
+
+  .body__backround {
+    background-color: lightcoral;
+  }
+
+  .index__main {
+    align-items: center;
+  }
+
+  .footer {
+    background-color: red;
+    border: black;
+    padding: 2px;
+  }
+
+  .h3_footer {
+    text-align: center;
+  }
+
+  .footer__icons {
+    display: flex;
+    width: 50px;
+    height: 50px;
+  }
+
+  .icon_item {
+    margin-left: 70px;
+    margin-bottom: 20px;
+  }
+
+  .productos_title {
+    color: rgb(240, 6, 38);
+    text-align: center;
+    font-size: 40px;
+    background-color: white;
+    padding: 10px;
+    border: 3px double black;
+  }
+
+  .productos__flex {
+    display: block;
+  }
+
+  .card {
+    padding-top: 30px;
+    margin-top: 10px;
+  }
+
+  .card_img {
+    width: 100%;
+    border: 2px double red;
+  }
+
+  .card_mermelada {
+    width: 100%;
+  }
+
+  .card_description {
+    width: 100%;
+    font-size: 15px;
+    font-family: fontThin;
+  }
+
+  .recetas_title {
+    color: rgb(240, 6, 38);
+    text-align: center;
+    font-size: 40px;
+    background-color: white;
+    padding: 10px;
+    border: 3px double black;
+  }
+
+  .recetas_p {
+    font-size: 20px;
+    text-align: center;
+    color: red;
+  }
+
+  .recetas__mermelada {
+    width: 100%;
+  }
+
+  .recetas__licores {
+    width: 100%;
+  }
+
+  .recetas__container {
+    margin-bottom: 50px;
+  }
+
+  .nosotros_title {
+    color: rgb(240, 6, 38);
+    text-align: center;
+    font-size: 40px;
+    background-color: white;
+    padding: 10px;
+    border: 3px double black;
+  }
+
+  .img__nosotros {
+    width: 100%;
+  }
+
+  .contacto_title {
+    color: rgb(240, 6, 38);
+    text-align: center;
+    font-size: 40px;
+    background-color: white;
+    padding: 10px;
+    border: 3px double black;
+  }
+
+  .contacto_card {
+    margin: 30px;
+    width: 50%;
+  }
+
+  .contacto_name {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .contacto_box {
+    margin-bottom: 10px;
+  }
+}
+
+/*MEDIA DESKTOP*/
+/*MEDIA DESKTOP*/
+/*MEDIA DESKTOP*/
+/*MEDIA DESKTOP*/
+/*MEDIA DESKTOP*/
+
+@media (min-width: 760px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav_bar {
+    width: 100%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav__list {
+    display: inline-flex;
+    list-style-type: none;
+  }
+
+  .nav__item {
+    font-size: 25px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    padding: 5px;
+    margin-left: 50px;
+    margin-right: 10px;
+    border: 3px solid black;
+    background-color: white;
+  }
+
+  .nav__item:hover {
+    font-weight: 50px;
+    transition: 0.8s;
+    background-color: red;
+    border: 5px solid black;
+  }
+
+  .nav__item:hover .href {
+    color: white;
+  }
+
+  .href {
+    text-decoration: none;
+    color: red;
+  }
+
+  .logo {
+    width: 100%;
+    margin-left: 50px;
+  }
+
+  .h2-1 {
+    color: red;
+    font-size: 50px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+
+  .p_index {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .body_backround {
+    background-image: linear-gradient(white, red);
+  }
+
+  .row__index {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .index_presentation {
+    display: block;
+    margin-right: 80px;
+  }
+
+  .img_presentation {
+    width: 300px;
+    height: 300px;
+  }
+
+  .img_column1 {
+    display: flex;
+  }
+
+  .img_presentation_item {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+  }
+
+  .img__index {
+    width: 500px;
+    height: 700px;
+    margin: 50px 80px 50px 80px;
+  }
+
+  .footer {
+    border: black;
+    padding: 4px;
+  }
+
+  .h3_footer {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 23px;
+  }
+
+  .footer__icons {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin-inline-start: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .icon_item {
+    margin-left: 100px;
+  }
+
+  .productos_title {
+    color: rgb(240, 6, 38);
+    text-align: center;
+    font-size: 40px;
+    background-color: white;
+    padding: 10px;
+    border: 3px double black;
+  }
+
+  .row {
+    display: flex;
+    margin-left: 8vw;
+    margin-right: 8vw;
+  }
+
+  .productos__flex {
+    display: flex;
+  }
+
+  .card {
+    padding-top: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+    overflow: hidden;
+    transition: transform 500ms ease;
+  }
+
+  .card:hover,
+  .card:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card:hover .card_description {
+    color: white;
+    background-color: black;
+    transform: translateY(-100%) scale(1.05);
+    transition: transform 500ms ease;
+  }
+
+  .card_img {
+    border: 2px double red;
+  }
+
+  .card_mermelada {
+    width: 200px;
+    height: 200px;
+  }
+
+  .card_description {
+    width: 100%;
+    font-size: 15px;
+    font-family: fontThin;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .nosotros_title {
+    color: rgb(240, 6, 38);
+    text-align: center;
+    font-size: 40px;
+    background-color: white;
+    padding: 10px;
+    border: 3px double black;
+  }
+
+  .img__nosotros {
+    width: 400px;
+    height: 300px;
+  }
+
+  .recetas_title {
+    color: rgb(240, 6, 38);
+    text-align: center;
+    font-size: 40px;
+    background-color: white;
+    padding: 10px;
+    border: 3px double black;
+  }
+
+  .recetas__mermelada {
+    width: 200px;
+    height: 250px;
+  }
+
+  .recetas__licores {
+    width: 200px;
+    height: 250px;
+  }
+
+  .recetas__container {
+    margin-bottom: 50px;
+  }
+
+  .contacto_title {
+    color: rgb(240, 6, 38);
+    text-align: center;
+    font-size: 40px;
+    background-color: white;
+    padding: 10px;
+    border: 3px double black;
+  }
+
+  .contacto_card {
+    margin: 30px;
+    width: 50%;
+  }
+
+  .contacto_name {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .contacto_box {
+    margin-bottom: 10px;
+  }
+
+  .form__mensaje {
+    margin-top: 20px;
+  }
+}
