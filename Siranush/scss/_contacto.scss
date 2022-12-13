@@ -1,0 +1,51 @@
+.contacto_title {
+  color: rgb(240, 6, 38);
+  text-align: center;
+  font-size: 40px;
+  background-color: white;
+  padding: 10px;
+  border: 3px double black;
+}
+
+.contacto_card {
+  margin: 30px;
+  width: 50%;
+}
+
+.contacto_name {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.contacto_box {
+  margin-bottom: 10px;
+}
+
+@media (min-width: 760px) {
+  .contacto_title {
+    color: rgb(240, 6, 38);
+    text-align: center;
+    font-size: 40px;
+    background-color: white;
+    padding: 10px;
+    border: 3px double black;
+  }
+
+  .contacto_card {
+    margin: 30px;
+    width: 50%;
+  }
+
+  .contacto_name {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .contacto_box {
+    margin-bottom: 10px;
+  }
+
+  .form__mensaje {
+    margin-top: 20px;
+  }
+}

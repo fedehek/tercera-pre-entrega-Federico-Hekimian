@@ -1,0 +1,92 @@
+.productos_title {
+  color: rgb(240, 6, 38);
+  text-align: center;
+  font-size: 40px;
+  background-color: white;
+  padding: 10px;
+  border: 3px double black;
+}
+
+.productos__flex {
+  display: block;
+}
+
+.card {
+  padding-top: 30px;
+  margin-top: 10px;
+}
+
+.card_img {
+  width: 100%;
+  border: 2px double red;
+}
+
+.card_mermelada {
+  width: 100%;
+}
+
+.card_description {
+  width: 100%;
+  font-size: 15px;
+  font-family: fontThin;
+}
+
+@media (min-width: 760px) {
+  .productos_title {
+    color: rgb(240, 6, 38);
+    text-align: center;
+    font-size: 40px;
+    background-color: white;
+    padding: 10px;
+    border: 3px double black;
+  }
+
+  .row {
+    display: flex;
+    margin-left: 8vw;
+    margin-right: 8vw;
+  }
+
+  .productos__flex {
+    display: flex;
+  }
+
+  .card {
+    padding-top: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+    overflow: hidden;
+    transition: transform 500ms ease;
+  }
+
+  .card:hover,
+  .card:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card:hover .card_description {
+    color: white;
+    background-color: black;
+    transform: translateY(-100%) scale(1.05);
+    transition: transform 500ms ease;
+  }
+
+  .card_img {
+    border: 2px double red;
+  }
+
+  .card_mermelada {
+    width: 200px;
+    height: 200px;
+  }
+
+  .card_description {
+    width: 100%;
+    font-size: 15px;
+    font-family: fontThin;
+    text-align: center;
+    padding: 10px;
+  }
+}

@@ -1,0 +1,79 @@
+.h1__main {
+  font-family: "Marhey", cursive;
+  text-align: center;
+}
+
+.img__index {
+  width: 95%;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.h2-1 {
+  color: red;
+  text-align: center;
+  max-width: 100%;
+}
+
+.p_index {
+  text-align: center;
+}
+
+.img_presentation_item {
+  display: block;
+  width: 100%;
+  padding: 5px;
+}
+
+.body__index {
+  background-color: aqua;
+}
+
+.index__main {
+  align-items: center;
+}
+
+@media (min-width: 760px) {
+  .h2-1 {
+    color: red;
+    font-size: 50px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+
+  .p_index {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .row__index {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .index_presentation {
+    display: block;
+    margin-right: 80px;
+  }
+
+  .img_presentation {
+    width: 300px;
+    height: 300px;
+  }
+
+  .img_column1 {
+    display: flex;
+  }
+
+  .img_presentation_item {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+  }
+
+  .img__index {
+    width: 500px;
+    height: 700px;
+    margin: 50px 80px 50px 80px;
+  }
+}
