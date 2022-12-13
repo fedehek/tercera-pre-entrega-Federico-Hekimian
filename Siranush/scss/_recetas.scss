@@ -1,0 +1,51 @@
+.recetas_title {
+  color: rgb(240, 6, 38);
+  text-align: center;
+  font-size: 40px;
+  background-color: white;
+  padding: 10px;
+  border: 3px double black;
+}
+
+.recetas_p {
+  font-size: 20px;
+  text-align: center;
+  color: red;
+}
+
+.recetas__mermelada {
+  width: 100%;
+}
+
+.recetas__licores {
+  width: 100%;
+}
+
+.recetas__container {
+  margin-bottom: 50px;
+}
+
+@media (min-width: 760px) {
+  .recetas_title {
+    color: rgb(240, 6, 38);
+    text-align: center;
+    font-size: 40px;
+    background-color: white;
+    padding: 10px;
+    border: 3px double black;
+  }
+
+  .recetas__mermelada {
+    width: 200px;
+    height: 250px;
+  }
+
+  .recetas__licores {
+    width: 200px;
+    height: 250px;
+  }
+
+  .recetas__container {
+    margin-bottom: 50px;
+  }
+}
